@@ -1,0 +1,10 @@
+body {
+    font-family: "Arial", sans-serif; /* font source */
+    font-size: 16px; /* font size */
+    color: #333; /* text color */
+    margin: 0; /* default margin*/
+    padding: 0; /* default padding */
+    background-color: #fff; /* background color */
+    line-height: 1.6; /* line size */
+}
+

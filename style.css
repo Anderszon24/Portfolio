@@ -1,10 +1,23 @@
 body {
-    font-family: "Arial", sans-serif; /* font source */
-    font-size: 16px; /* font size */
-    color: #333; /* text color */
-    margin: 0; /* default margin*/
+    font-family: 'Libre Baskerville', serif; /*font source*/
+    font-size: 25px; /* font size */
+    color: #fff; /* text color */
+    margin: 100px; /* default margin*/
     padding: 0; /* default padding */
-    background-color: #fff; /* background color */
+    background-color: #000500; /* background color */
     line-height: 1.6; /* line size */
 }
-
+/* ------------------loading-container--------------------------- */
+#myName{
+    font-style: italic;
+    font-size: 20px;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader img {
+    width: 500px; /* ajusta el tamaño según tu gif */
+}
+/* ------------------loading-container--------------------------- */

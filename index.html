@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--------------------------head1-------------------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="John Andersson Moreno giraldo">
@@ -10,60 +11,68 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="icon" href="./resources/portafolio.ico">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--------------------------head2-------------------------------->
 </head>
 <body>
-    <!------------------loading-container1---------------------------> 
-    <div id="text-loader">
-        <center><h1>PORTFOLIO</h1></center>
-        <center><h1 id="myName">JOHN ANDERSSON MORENO GIRALDO</h1></center>
-    </div>
+    <!------------------loading-container1--------------------------->
+        <div id="text-loader">
+            <center><h1>Welcome to!</h1></center>
+        </div>
         <div class="loader">
         <img src="./resources/htmljscss.gif" alt="Cargando...">
     </div>
     <!------------------loading-container2---------------------------> 
     <!-----------------------main-page1------------------------------> 
     <div id="main-content">
-        
+    <!--------------------------nav1--------------------------------->
         <nav id="main-head">
-            <div>
-                <center><img class="images-profile" src="./resources/profile.png" alt="profile"></center>
-                <center><h3 class="title-head">profile</h3></center>
+            <div id="nav-left">
+                <h3 class="title-head">Portfolio</h3>
             </div>
-            <div>
-                <center><img class="images-profile" src="./resources/knowledges.png" alt="knowledges"></center>
-                <center><h3 class="title-head">knowledges</h3></center>
-            </div>
-            <div>
-                <center><img class="images-profile" src="./resources/experiences.png" alt="experiences"></center>
-                <center><h3 class="title-head">experiences</h3></center>
-            </div>
-            <div>
-                <center><img class="images-profile" src="./resources/project-gallery.png" alt="project-gallery"></center>
-                <center><h3 class="title-head">project gallery gallery</h3></center>
-            </div>
-            <div>
-                <center><img class="images-profile" src="./resources/contact-me.png" alt="contact-me"></center>
-                <center><h3 class="title-head">contact me</h3></center>
+            <div id="nav-rigth">
+                <div>
+                    <center><h3 class="title-head">Profile</h3></center>
+                </div>
+                <div>
+                    <center><h3 class="title-head">Knowledges</h3></center>
+                </div>
+                <div>
+                    <center><h3 class="title-head">Experiences</h3></center>
+                </div>
+                <div>
+                    <center><h3 class="title-head">Project gallery</h3></center>
+                </div>
+                <div>
+                    <center><h3 class="title-head">Contact me</h3></center>
+                </div>
             </div>
         </nav>
-
-        <main>
+    <!--------------------------nav2--------------------------------->
+    <!------------------------body-main1----------------------------->
+        <div id="profile">
             <aside>
-                <img id="img-profile" src="./resources/main-profile.jpg" alt="main-profile">
+                <img id="img-profile" src="./resources/main-profile.png" alt="main-profile">
             </aside>
             <article>
-                <h3>JOHN ANDERSSON MORENO GIRALDO</h3>
+                <h3 id="title-article">Andersson's Portfolio</h3>
                 <p>Soy un joven apasionado por la tecnología, nacido en el año 2000. Mi fascinación por la innovación me impulsa a explorar constantemente el mundo digital. Disfruto sumergirme en videojuegos, descubrir nuevos lugares y cultivar relaciones significativas. Mi entusiasmo por las experiencias tecnológicas se refleja en cada aspecto de mi vida, y estoy emocionado por compartir mi viaje a través de mi portafolio web.</p>
             </article>
-            
-        </main>
-
+        </div>
+    <!------------------------body-main2----------------------------->
+    <!--------------------------footer-1----------------------------->
         <footer>
             <h4>Contactame</h4>
-            <p>email: anderson.moreno.9@gmail.com</p>
+            <b>e-mail: </b><a href="mailto" target="_BLANK"><img class="img-footer" src="./resources/gmail.png" alt="img-github"></a><br>
+            <b>GitHub: </b><a href="https://github.com/Anderszon24" target="_BLANK"><img class="img-footer" src="./resources/github.png" alt="imgage github"></a><br>
+            <b>Linkedin: </b><a href="https://www.linkedin.com/in/john-andersson-moreno-giraldo-8b9b8a215/" target="_BLANK"><img class="img-footer" src="./resources/linkedin.png" alt="imgage Linkdin"></a><br>
             <p>Acepto cualquier tipo de critica constructiva en el portafolio, gracias.</p>
         </footer>
     </div>
+    <!--------------------------footer-2----------------------------->
     <!-----------------------main-page2------------------------------>
     <script src="app.js"></script>
 </body>

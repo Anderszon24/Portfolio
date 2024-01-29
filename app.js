@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("body").style.margin = "14px";
         document.querySelector("body").style.color = "#fff";
         document.querySelector("#main-content").style.display = "block";
-    }, 1500);//3500 mls = 3.5s
+    }, 2500);//3500 mls = 3.5s
 });
